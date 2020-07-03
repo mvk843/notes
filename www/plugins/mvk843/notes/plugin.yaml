@@ -1,0 +1,11 @@
+plugin:
+    name: 'mvk843.notes::lang.plugin.name'
+    description: 'mvk843.notes::lang.plugin.description'
+    author: mvk843
+    icon: oc-icon-comments
+    homepage: ''
+navigation:
+    main-menu-notes:
+        label: Notes
+        url: mvk843/notes/notes
+        icon: icon-comments

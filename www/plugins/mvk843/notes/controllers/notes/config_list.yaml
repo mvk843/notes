@@ -1,0 +1,12 @@
+list: $/mvk843/notes/models/note/columns.yaml
+modelClass: Mvk843\Notes\Models\Note
+title: Notes
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'mvk843/notes/notes/update/:id'

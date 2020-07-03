@@ -1,0 +1,11 @@
+name: Notes
+description: 'Notes theme'
+author: mvk843
+homepage: ''
+code: ''
+form:
+    fields:
+        site_name:
+            label: Notes
+            comment: Notes
+            default: mvk843

@@ -1,0 +1,4 @@
+title: Notes
+modelClass: Mvk843\Notes\Models\Note
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,16 @@
+.DS_Store
+.idea
+package-lock.json
+node_modules
+src/lib/*
+!src/lib/.gitkeep
+www/bootstrap
+www/config
+www/modules
+www/vendor
+www/storage
+www/plugins/october
+www/plugins/rainlab
+rev-manifest.json
+www/artisan
+www/composer.lock

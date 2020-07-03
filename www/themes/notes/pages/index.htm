@@ -1,0 +1,19 @@
+title = "Notes"
+url = "/"
+layout = "default"
+description = "Notes"
+meta_title = "Notes"
+meta_description = "Notes"
+is_hidden = 0
+
+==
+<?php
+function onEnd()
+{
+	$this->title = $this->theme->site_name;
+}
+?>
+==
+<div class="page p-notes">
+	<div id="app"></div>
+</div>

@@ -1,0 +1,10 @@
+name: Notes
+form: $/mvk843/notes/models/note/fields.yaml
+modelClass: Mvk843\Notes\Models\Note
+defaultRedirect: mvk843/notes/notes
+create:
+    redirect: 'mvk843/notes/notes/update/:id'
+    redirectClose: mvk843/notes/notes
+update:
+    redirect: mvk843/notes/notes
+    redirectClose: mvk843/notes/notes

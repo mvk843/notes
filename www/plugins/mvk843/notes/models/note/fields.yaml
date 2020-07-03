@@ -1,0 +1,21 @@
+fields:
+    title:
+        label: Title
+        span: full
+        required: 1
+        type: text
+    text:
+        label: Text
+        size: large
+        span: full
+        type: textarea
+    picture:
+        label: Picture
+        mode: image
+        fileTypes: 'jpg, jpeg'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
